@@ -25,7 +25,20 @@ class Login extends StatelessWidget {
               padding: const EdgeInsets.only(top: 20),
               child: Image.asset("assets/images/graduate.png", scale: 3.5),
             ),
+
+            getTextField("CPF", Icons.person)
           ],
+        ),
+      ),
+    );
+  }
+
+  Container getTextField(String name, IconData icon) {
+    return Container(
+      child: TextField(
+        decoration: InputDecoration(
+          labelText: name,
+          prefixIcon: Icon(icon),
         ),
       ),
     );
