@@ -1,16 +1,14 @@
-# flutter_professor
+# Versão Gradle
 
-A new Flutter project.
+Caso o projeto não rode, a solução provavelmente será alterar a versão do Gradle em android/gradle/wrapper/gradle-wrapper.properties
+Então, em distributionUrl, mudar o link para https\://services.gradle.org/distributions/gradle-7.5-all.zip ou qualquer outra versão compatível
 
-## Getting Started
+## Captura das telas feitas
 
-This project is a starting point for a Flutter application.
+![Screenshot_2024-04-11-22-16-52-720_com example flutter_professor](https://github.com/subteste/FlutterProfessor/assets/116468513/23aa01f3-b7d2-4c56-acda-9bf30caeed83)
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot_2024-04-11-22-16-57-571_com example flutter_professor](https://github.com/subteste/FlutterProfessor/assets/116468513/4eb77699-12e7-4846-8e7d-8ae3c48effad)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Screenshot_2024-04-11-22-17-01-997_com example flutter_professor](https://github.com/subteste/FlutterProfessor/assets/116468513/7e43da1c-c3f7-4ddc-8d3f-d86252fcfb9d)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_2024-04-11-22-17-13-082_com example flutter_professor](https://github.com/subteste/FlutterProfessor/assets/116468513/ade78e58-812a-486d-9d3a-09de0d773cbf)
