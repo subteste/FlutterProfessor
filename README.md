@@ -1,7 +1,7 @@
 # Versão Gradle
 
-Caso o projeto não rode, a solução provavelmente será alterar a versão do Gradle em android/gradle/wrapper/gradle-wrapper.properties
-Então, em distributionUrl, mudar o link para https\://services.gradle.org/distributions/gradle-7.5-all.zip ou qualquer outra versão compatível
+Caso o projeto não rode, a solução provavelmente será alterar a versão do Gradle em <code>android/gradle/wrapper/gradle-wrapper.properties</code> <bt>
+Então, em <code>distributionUrl</code>, mudar o link para https\://services.gradle.org/distributions/gradle-7.5-all.zip ou qualquer outra versão compatível
 
 ## Captura das telas feitas
 
