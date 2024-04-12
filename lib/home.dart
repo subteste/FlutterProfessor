@@ -11,44 +11,48 @@ class Home extends StatelessWidget {
       ),
       drawer: Drawer(
         child: ListView(
-          children: const [
-            ListTile(
+          children: [
+            const ListTile(
               title: Text("Dados pessoais"),
               leading: Icon(Icons.person),
             ),
-            ListTile(
+            const ListTile(
               title: Text("Horários"),
               leading: Icon(Icons.watch_later),
             ),
-            ListTile(
+            const ListTile(
               title: Text("Calendário letivo"),
               leading: Icon(Icons.calendar_month),
             ),
-            ListTile(
+            const ListTile(
               title: Text("Minhas turmas"),
               leading: Icon(Icons.people),
             ),
-            ListTile(
+            const ListTile(
               title: Text("Frequência"),
               leading: Icon(Icons.check),
             ),
-            ListTile(
+            const ListTile(
               title: Text("Avaliações e notas"),
               leading: Icon(Icons.text_snippet),
             ),
-            ListTile(
+            const ListTile(
               title: Text("Cronograma"),
               leading: Icon(Icons.list_alt),
             ),
-            ListTile(
+            const ListTile(
               title: Text("Atividades"),
               leading: Icon(Icons.today_rounded),
             ),
             ListTile(
-              title: Text("Sair da conta"),
-              leading: Icon(Icons.exit_to_app),
+              title: const Text("Sair da conta"),
+              leading: const Icon(Icons.exit_to_app),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.pop(context);
+              },
             ),
-            Divider(
+            const Divider(
               color: Colors.grey,
               height: 20.0,
             )
@@ -83,7 +87,7 @@ class Home extends StatelessWidget {
               color: Color.fromARGB(255, 96, 235, 158),
               width: MediaQuery.of(context).size.width,
               height: 30.0,
-              child: const Center(child: Text("Bem-vindo, professor(a)!", style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w500),)),
+              child: const Center(child: Text("Bem-vindo, professor!", style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w500),)),
             ),
 
             const Padding(
